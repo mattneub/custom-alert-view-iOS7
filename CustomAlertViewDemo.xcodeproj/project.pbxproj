@@ -16,25 +16,10 @@
 		32CCF134187DCEA4009ED52A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF132187DCEA4009ED52A /* Main.storyboard */; };
 		32CCF137187DCEA4009ED52A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CCF136187DCEA4009ED52A /* ViewController.m */; };
 		32CCF139187DCEA4009ED52A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF138187DCEA4009ED52A /* Images.xcassets */; };
-		32CCF140187DCEA4009ED52A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CCF13F187DCEA4009ED52A /* XCTest.framework */; };
-		32CCF141187DCEA4009ED52A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CCF120187DCEA4009ED52A /* Foundation.framework */; };
-		32CCF142187DCEA4009ED52A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CCF124187DCEA4009ED52A /* UIKit.framework */; };
-		32CCF14A187DCEA4009ED52A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF148187DCEA4009ED52A /* InfoPlist.strings */; };
-		32CCF14C187DCEA4009ED52A /* CustomAlertViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CCF14B187DCEA4009ED52A /* CustomAlertViewDemoTests.m */; };
 		32CCF156187DCF0E009ED52A /* smileybignew.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF155187DCF0E009ED52A /* smileybignew.png */; };
 		32CCF15A187DCFA6009ED52A /* CustomAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CCF158187DCFA6009ED52A /* CustomAlertViewController.m */; };
 		32CCF15B187DCFA6009ED52A /* CustomAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF159187DCFA6009ED52A /* CustomAlertViewController.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		32CCF143187DCEA4009ED52A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 32CCF115187DCEA4009ED52A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 32CCF11C187DCEA4009ED52A;
-			remoteInfo = CustomAlertViewDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		32CCF11D187DCEA4009ED52A /* CustomAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,11 +36,7 @@
 		32CCF135187DCEA4009ED52A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		32CCF136187DCEA4009ED52A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		32CCF138187DCEA4009ED52A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		32CCF13E187DCEA4009ED52A /* CustomAlertViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlertViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CCF13F187DCEA4009ED52A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		32CCF147187DCEA4009ED52A /* CustomAlertViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomAlertViewDemoTests-Info.plist"; sourceTree = "<group>"; };
-		32CCF149187DCEA4009ED52A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		32CCF14B187DCEA4009ED52A /* CustomAlertViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertViewDemoTests.m; sourceTree = "<group>"; };
 		32CCF155187DCF0E009ED52A /* smileybignew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smileybignew.png; sourceTree = "<group>"; };
 		32CCF157187DCFA6009ED52A /* CustomAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertViewController.h; sourceTree = "<group>"; };
 		32CCF158187DCFA6009ED52A /* CustomAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertViewController.m; sourceTree = "<group>"; };
@@ -73,16 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32CCF13B187DCEA4009ED52A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				32CCF140187DCEA4009ED52A /* XCTest.framework in Frameworks */,
-				32CCF142187DCEA4009ED52A /* UIKit.framework in Frameworks */,
-				32CCF141187DCEA4009ED52A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				32CCF126187DCEA4009ED52A /* CustomAlertViewDemo */,
-				32CCF145187DCEA4009ED52A /* CustomAlertViewDemoTests */,
 				32CCF11F187DCEA4009ED52A /* Frameworks */,
 				32CCF11E187DCEA4009ED52A /* Products */,
 			);
@@ -100,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				32CCF11D187DCEA4009ED52A /* CustomAlertViewDemo.app */,
-				32CCF13E187DCEA4009ED52A /* CustomAlertViewDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,24 +114,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		32CCF145187DCEA4009ED52A /* CustomAlertViewDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				32CCF14B187DCEA4009ED52A /* CustomAlertViewDemoTests.m */,
-				32CCF146187DCEA4009ED52A /* Supporting Files */,
-			);
-			path = CustomAlertViewDemoTests;
-			sourceTree = "<group>";
-		};
-		32CCF146187DCEA4009ED52A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				32CCF147187DCEA4009ED52A /* CustomAlertViewDemoTests-Info.plist */,
-				32CCF148187DCEA4009ED52A /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,24 +134,6 @@
 			productReference = 32CCF11D187DCEA4009ED52A /* CustomAlertViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		32CCF13D187DCEA4009ED52A /* CustomAlertViewDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 32CCF152187DCEA4009ED52A /* Build configuration list for PBXNativeTarget "CustomAlertViewDemoTests" */;
-			buildPhases = (
-				32CCF13A187DCEA4009ED52A /* Sources */,
-				32CCF13B187DCEA4009ED52A /* Frameworks */,
-				32CCF13C187DCEA4009ED52A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				32CCF144187DCEA4009ED52A /* PBXTargetDependency */,
-			);
-			name = CustomAlertViewDemoTests;
-			productName = CustomAlertViewDemoTests;
-			productReference = 32CCF13E187DCEA4009ED52A /* CustomAlertViewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,11 +142,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Matt Neuburg";
-				TargetAttributes = {
-					32CCF13D187DCEA4009ED52A = {
-						TestTargetID = 32CCF11C187DCEA4009ED52A;
-					};
-				};
 			};
 			buildConfigurationList = 32CCF118187DCEA4009ED52A /* Build configuration list for PBXProject "CustomAlertViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -229,7 +157,6 @@
 			projectRoot = "";
 			targets = (
 				32CCF11C187DCEA4009ED52A /* CustomAlertViewDemo */,
-				32CCF13D187DCEA4009ED52A /* CustomAlertViewDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,14 +174,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32CCF13C187DCEA4009ED52A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				32CCF14A187DCEA4009ED52A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -269,23 +188,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32CCF13A187DCEA4009ED52A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				32CCF14C187DCEA4009ED52A /* CustomAlertViewDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		32CCF144187DCEA4009ED52A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 32CCF11C187DCEA4009ED52A /* CustomAlertViewDemo */;
-			targetProxy = 32CCF143187DCEA4009ED52A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		32CCF129187DCEA4009ED52A /* InfoPlist.strings */ = {
@@ -302,14 +205,6 @@
 				32CCF133187DCEA4009ED52A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		32CCF148187DCEA4009ED52A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32CCF149187DCEA4009ED52A /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,48 +308,6 @@
 			};
 			name = Release;
 		};
-		32CCF153187DCEA4009ED52A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomAlertViewDemo.app/CustomAlertViewDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CustomAlertViewDemo/CustomAlertViewDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "CustomAlertViewDemoTests/CustomAlertViewDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		32CCF154187DCEA4009ED52A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomAlertViewDemo.app/CustomAlertViewDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CustomAlertViewDemo/CustomAlertViewDemo-Prefix.pch";
-				INFOPLIST_FILE = "CustomAlertViewDemoTests/CustomAlertViewDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -474,14 +327,7 @@
 				32CCF151187DCEA4009ED52A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		32CCF152187DCEA4009ED52A /* Build configuration list for PBXNativeTarget "CustomAlertViewDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32CCF153187DCEA4009ED52A /* Debug */,
-				32CCF154187DCEA4009ED52A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
