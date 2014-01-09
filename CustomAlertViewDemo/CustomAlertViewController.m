@@ -77,20 +77,18 @@
     if (vc2 == self) { // presenting
         [con addSubview:v2];
         v2.frame = v1.frame;
-        CGAffineTransform scale = CGAffineTransformMakeScale(1.6,1.6);
-        self.alertView.transform = CGAffineTransformConcat(scale, self.alertView.transform);
+        self.alertView.transform = CGAffineTransformMakeScale(1.6,1.6);
         v2.alpha = 0;
         v1.tintAdjustmentMode = UIViewTintAdjustmentModeDimmed;
         [UIView animateWithDuration:0.25 animations:^{
             v2.alpha = 1;
-            self.alertView.transform =
-            CGAffineTransformConcat(CGAffineTransformInvert(scale), self.alertView.transform);
+            self.alertView.transform = CGAffineTransformIdentity;
         } completion:^(BOOL finished) {
             [transitionContext completeTransition:YES];
         }];
     } else { // dismissing
         [UIView animateWithDuration:0.25 animations:^{
-            v1.transform = CGAffineTransformScale(v1.transform,0.5,0.5);
+            self.alertView.transform = CGAffineTransformMakeScale(0.5,0.5);
             v1.alpha = 0;
         } completion:^(BOOL finished) {
             v2.tintAdjustmentMode = UIViewTintAdjustmentModeAutomatic;
