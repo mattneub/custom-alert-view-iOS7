@@ -1,91 +1,80 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5037.2" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6185.7" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomAlertViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomAlertViewController" customModule="CustomAlertViewDemo" customModuleProvider="target">
             <connections>
-                <outlet property="alertView" destination="574-mf-rQh" id="cr4-UP-Jv5"/>
-                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view" destination="574-mf-rQh" id="WMC-Wa-cgp"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="574-mf-rQh" userLabel="AlertView">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="126"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="574-mf-rQh" userLabel="AlertView">
-                    <rect key="frame" x="46" y="154" width="229" height="126"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <subviews>
-                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8HY-jV-Hgg">
-                            <rect key="frame" x="160" y="20" width="51" height="31"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        </switch>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smiliness:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKC-02-gE7">
-                            <rect key="frame" x="74" y="25" width="78" height="21"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="smileybignew.png" translatesAutoresizingMaskIntoConstraints="NO" id="c6X-8l-Qb9">
-                            <rect key="frame" x="20" y="16" width="40" height="40"/>
-                            <autoresizingMask key="autoresizingMask"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="40" id="8an-i7-Zwb"/>
-                                <constraint firstAttribute="width" constant="40" id="fYG-EJ-0Y6"/>
-                            </constraints>
-                        </imageView>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wvo-Lw-v8L" userLabel="DividerView">
-                            <rect key="frame" x="0.0" y="66" width="229" height="2"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="2" id="fow-AZ-flo"/>
-                            </constraints>
-                        </view>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiQ-AP-QuH">
-                            <rect key="frame" x="20" y="76" width="189" height="30"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="OK">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="doDismiss:" destination="-1" eventType="touchUpInside" id="9s9-V8-yZZ"/>
-                            </connections>
-                        </button>
-                    </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8HY-jV-Hgg">
+                    <rect key="frame" x="160" y="20" width="51" height="31"/>
+                </switch>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smiliness:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKC-02-gE7">
+                    <rect key="frame" x="74" y="25" width="78" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="smileybignew.png" translatesAutoresizingMaskIntoConstraints="NO" id="c6X-8l-Qb9">
+                    <rect key="frame" x="20" y="16" width="40" height="40"/>
                     <constraints>
-                        <constraint firstAttribute="trailing" secondItem="Wvo-Lw-v8L" secondAttribute="trailing" id="1bL-63-F41"/>
-                        <constraint firstAttribute="bottom" secondItem="AiQ-AP-QuH" secondAttribute="bottom" constant="20" id="Lgb-IY-9r6"/>
-                        <constraint firstItem="8HY-jV-Hgg" firstAttribute="top" secondItem="574-mf-rQh" secondAttribute="top" constant="20" id="T9s-1e-TjC"/>
-                        <constraint firstItem="8HY-jV-Hgg" firstAttribute="leading" secondItem="TKC-02-gE7" secondAttribute="trailing" constant="8" id="Ttd-DO-Cr4"/>
-                        <constraint firstAttribute="width" constant="229" id="eBh-3g-Y5X"/>
-                        <constraint firstAttribute="height" constant="126" id="esg-5D-8gg"/>
-                        <constraint firstItem="Wvo-Lw-v8L" firstAttribute="top" secondItem="574-mf-rQh" secondAttribute="top" constant="66" id="gKy-H0-fFK"/>
-                        <constraint firstItem="AiQ-AP-QuH" firstAttribute="leading" secondItem="574-mf-rQh" secondAttribute="leading" constant="20" id="ivM-qz-Z4w"/>
-                        <constraint firstItem="c6X-8l-Qb9" firstAttribute="leading" secondItem="574-mf-rQh" secondAttribute="leading" constant="20" id="kuz-Q2-JG5"/>
-                        <constraint firstItem="TKC-02-gE7" firstAttribute="leading" secondItem="c6X-8l-Qb9" secondAttribute="trailing" constant="14" id="pdZ-z3-AZq"/>
-                        <constraint firstItem="c6X-8l-Qb9" firstAttribute="top" secondItem="574-mf-rQh" secondAttribute="top" constant="16" id="r9X-w6-zIi"/>
-                        <constraint firstAttribute="trailing" secondItem="AiQ-AP-QuH" secondAttribute="trailing" constant="20" id="sO1-cZ-gF3"/>
-                        <constraint firstItem="Wvo-Lw-v8L" firstAttribute="leading" secondItem="574-mf-rQh" secondAttribute="leading" id="w4d-e2-pId"/>
-                        <constraint firstItem="TKC-02-gE7" firstAttribute="top" secondItem="574-mf-rQh" secondAttribute="top" constant="25" id="zTf-cI-EB7"/>
+                        <constraint firstAttribute="height" constant="40" id="8an-i7-Zwb"/>
+                        <constraint firstAttribute="width" constant="40" id="fYG-EJ-0Y6"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wvo-Lw-v8L" userLabel="DividerView">
+                    <rect key="frame" x="0.0" y="66" width="230" height="2"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="fow-AZ-flo"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiQ-AP-QuH">
+                    <rect key="frame" x="20" y="76" width="190" height="30"/>
+                    <state key="normal" title="OK">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="doDismiss:" destination="-1" eventType="touchUpInside" id="9s9-V8-yZZ"/>
+                    </connections>
+                </button>
             </subviews>
-            <color key="backgroundColor" white="0.906107436131387" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="574-mf-rQh" secondAttribute="centerY" constant="23" id="BjC-rh-yHC"/>
-                <constraint firstAttribute="centerX" secondItem="574-mf-rQh" secondAttribute="centerX" constant="-0.5" id="Q8U-iH-d1g"/>
+                <constraint firstAttribute="trailing" secondItem="Wvo-Lw-v8L" secondAttribute="trailing" id="1bL-63-F41"/>
+                <constraint firstAttribute="bottom" secondItem="AiQ-AP-QuH" secondAttribute="bottom" constant="20" id="Lgb-IY-9r6"/>
+                <constraint firstItem="8HY-jV-Hgg" firstAttribute="top" secondItem="574-mf-rQh" secondAttribute="top" constant="20" id="T9s-1e-TjC"/>
+                <constraint firstItem="8HY-jV-Hgg" firstAttribute="leading" secondItem="TKC-02-gE7" secondAttribute="trailing" constant="8" id="Ttd-DO-Cr4"/>
+                <constraint firstAttribute="width" constant="230" id="eBh-3g-Y5X"/>
+                <constraint firstAttribute="height" constant="126" id="esg-5D-8gg"/>
+                <constraint firstItem="Wvo-Lw-v8L" firstAttribute="top" secondItem="574-mf-rQh" secondAttribute="top" constant="66" id="gKy-H0-fFK"/>
+                <constraint firstItem="AiQ-AP-QuH" firstAttribute="leading" secondItem="574-mf-rQh" secondAttribute="leading" constant="20" id="ivM-qz-Z4w"/>
+                <constraint firstItem="c6X-8l-Qb9" firstAttribute="leading" secondItem="574-mf-rQh" secondAttribute="leading" constant="20" id="kuz-Q2-JG5"/>
+                <constraint firstItem="TKC-02-gE7" firstAttribute="leading" secondItem="c6X-8l-Qb9" secondAttribute="trailing" constant="14" id="pdZ-z3-AZq"/>
+                <constraint firstItem="c6X-8l-Qb9" firstAttribute="top" secondItem="574-mf-rQh" secondAttribute="top" constant="16" id="r9X-w6-zIi"/>
+                <constraint firstAttribute="trailing" secondItem="AiQ-AP-QuH" secondAttribute="trailing" constant="20" id="sO1-cZ-gF3"/>
+                <constraint firstItem="Wvo-Lw-v8L" firstAttribute="leading" secondItem="574-mf-rQh" secondAttribute="leading" id="w4d-e2-pId"/>
+                <constraint firstItem="TKC-02-gE7" firstAttribute="top" secondItem="574-mf-rQh" secondAttribute="top" constant="25" id="zTf-cI-EB7"/>
             </constraints>
-            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
     <resources>
         <image name="smileybignew.png" width="152" height="152"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4">
+            <size key="portraitSize" width="320" height="568"/>
+            <size key="landscapeSize" width="568" height="320"/>
+        </simulatedScreenMetrics>
+    </simulatedMetricsContainer>
 </document>

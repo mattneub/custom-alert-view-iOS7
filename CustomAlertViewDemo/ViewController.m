@@ -1,7 +1,7 @@
 
 
 #import "ViewController.h"
-#import "CustomAlertViewController.h"
+#import "CustomAlertViewDemo-Swift.h"
 
 @interface ViewController ()
 

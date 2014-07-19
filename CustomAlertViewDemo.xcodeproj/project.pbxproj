@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3276A7D0197A040B00568EFF /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276A7CF197A040B00568EFF /* CustomAlertViewController.swift */; };
+		3276A7D2197A066200568EFF /* CustomAlertViewTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276A7D1197A066200568EFF /* CustomAlertViewTransitioner.swift */; };
 		32CCF121187DCEA4009ED52A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CCF120187DCEA4009ED52A /* Foundation.framework */; };
 		32CCF123187DCEA4009ED52A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CCF122187DCEA4009ED52A /* CoreGraphics.framework */; };
 		32CCF125187DCEA4009ED52A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CCF124187DCEA4009ED52A /* UIKit.framework */; };
@@ -17,11 +19,13 @@
 		32CCF137187DCEA4009ED52A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CCF136187DCEA4009ED52A /* ViewController.m */; };
 		32CCF139187DCEA4009ED52A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF138187DCEA4009ED52A /* Images.xcassets */; };
 		32CCF156187DCF0E009ED52A /* smileybignew.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF155187DCF0E009ED52A /* smileybignew.png */; };
-		32CCF15A187DCFA6009ED52A /* CustomAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CCF158187DCFA6009ED52A /* CustomAlertViewController.m */; };
 		32CCF15B187DCFA6009ED52A /* CustomAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF159187DCFA6009ED52A /* CustomAlertViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3276A7CE197A040B00568EFF /* CustomAlertViewDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomAlertViewDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3276A7CF197A040B00568EFF /* CustomAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		3276A7D1197A066200568EFF /* CustomAlertViewTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewTransitioner.swift; sourceTree = "<group>"; };
 		32CCF11D187DCEA4009ED52A /* CustomAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CCF120187DCEA4009ED52A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32CCF122187DCEA4009ED52A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -38,8 +42,6 @@
 		32CCF138187DCEA4009ED52A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		32CCF13F187DCEA4009ED52A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		32CCF155187DCF0E009ED52A /* smileybignew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smileybignew.png; sourceTree = "<group>"; };
-		32CCF157187DCFA6009ED52A /* CustomAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertViewController.h; sourceTree = "<group>"; };
-		32CCF158187DCFA6009ED52A /* CustomAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertViewController.m; sourceTree = "<group>"; };
 		32CCF159187DCFA6009ED52A /* CustomAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,12 +95,13 @@
 				32CCF132187DCEA4009ED52A /* Main.storyboard */,
 				32CCF135187DCEA4009ED52A /* ViewController.h */,
 				32CCF136187DCEA4009ED52A /* ViewController.m */,
-				32CCF157187DCFA6009ED52A /* CustomAlertViewController.h */,
-				32CCF158187DCFA6009ED52A /* CustomAlertViewController.m */,
+				3276A7CF197A040B00568EFF /* CustomAlertViewController.swift */,
 				32CCF159187DCFA6009ED52A /* CustomAlertViewController.xib */,
+				3276A7D1197A066200568EFF /* CustomAlertViewTransitioner.swift */,
 				32CCF155187DCF0E009ED52A /* smileybignew.png */,
 				32CCF138187DCEA4009ED52A /* Images.xcassets */,
 				32CCF127187DCEA4009ED52A /* Supporting Files */,
+				3276A7CE197A040B00568EFF /* CustomAlertViewDemo-Bridging-Header.h */,
 			);
 			path = CustomAlertViewDemo;
 			sourceTree = "<group>";
@@ -181,8 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32CCF15A187DCFA6009ED52A /* CustomAlertViewController.m in Sources */,
+				3276A7D0197A040B00568EFF /* CustomAlertViewController.swift in Sources */,
 				32CCF137187DCEA4009ED52A /* ViewController.m in Sources */,
+				3276A7D2197A066200568EFF /* CustomAlertViewTransitioner.swift in Sources */,
 				32CCF131187DCEA4009ED52A /* AppDelegate.m in Sources */,
 				32CCF12D187DCEA4009ED52A /* main.m in Sources */,
 			);
@@ -243,7 +247,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -276,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -287,10 +291,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomAlertViewDemo/CustomAlertViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "CustomAlertViewDemo/CustomAlertViewDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomAlertViewDemo/CustomAlertViewDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -300,10 +308,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomAlertViewDemo/CustomAlertViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "CustomAlertViewDemo/CustomAlertViewDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomAlertViewDemo/CustomAlertViewDemo-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
