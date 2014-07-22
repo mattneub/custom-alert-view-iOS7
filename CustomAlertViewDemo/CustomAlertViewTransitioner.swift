@@ -4,7 +4,7 @@ import QuartzCore
 
 class CAVTransitioner : NSObject, UIViewControllerTransitioningDelegate {
     func presentationControllerForPresentedViewController(presented: UIViewController!, presentingViewController presenting: UIViewController!, sourceViewController source: UIViewController!) -> UIPresentationController! {
-        return MyPresentationController(presentingViewController: presenting, presentedViewController: presented)
+        return MyPresentationController(presentedViewController: presented, presentingViewController: presenting)
     }
 }
 
