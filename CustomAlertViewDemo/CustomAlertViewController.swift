@@ -20,6 +20,6 @@ class CustomAlertViewController : UIViewController {
     }
     
     @IBAction func doDismiss(sender:AnyObject?) {
-        self.presentingViewController.dismissViewControllerAnimated(true, completion: nil)
+        self.presentingViewController!.dismissViewControllerAnimated(true, completion: nil)
     }
 }

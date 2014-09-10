@@ -36,7 +36,7 @@ class MyPresentationController : UIPresentationController {
         shadow.alpha = 0
         con.insertSubview(shadow, atIndex: 0)
         shadow.autoresizingMask = .FlexibleWidth | .FlexibleHeight
-        let tc = vc.transitionCoordinator()
+        let tc = vc.transitionCoordinator()!
         tc.animateAlongsideTransition({
             _ in
             shadow.alpha = 1
@@ -51,7 +51,7 @@ class MyPresentationController : UIPresentationController {
         let v = vc.view
         let con = self.containerView
         let shadow = (con.subviews as [UIView])[0]
-        let tc = vc.transitionCoordinator()
+        let tc = vc.transitionCoordinator()!
         tc.animateAlongsideTransition({
             _ in
             shadow.alpha = 0
@@ -92,19 +92,19 @@ extension CAVTransitioner : UIViewControllerTransitioningDelegate {
 }
 
 extension CAVTransitioner : UIViewControllerAnimatedTransitioning {
-    func transitionDuration(transitionContext: UIViewControllerContextTransitioning!)
+    func transitionDuration(transitionContext: UIViewControllerContextTransitioning)
         -> NSTimeInterval {
             return 0.25
     }
     
-    func animateTransition(transitionContext: UIViewControllerContextTransitioning!) {
+    func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
         let vc1 = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)
         let vc2 = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)
         
         let con = transitionContext.containerView()
         
-        let r1start = transitionContext.initialFrameForViewController(vc1)
-        let r2end = transitionContext.finalFrameForViewController(vc2)
+        let r1start = transitionContext.initialFrameForViewController(vc1!)
+        let r2end = transitionContext.finalFrameForViewController(vc2!)
         
         let v1 = transitionContext.viewForKey(UITransitionContextFromViewKey)
         let v2 = transitionContext.viewForKey(UITransitionContextToViewKey)
@@ -113,7 +113,7 @@ extension CAVTransitioner : UIViewControllerAnimatedTransitioning {
         // for both presentation and dismissal
         // so we have to distinguish the two cases
         
-        if v2 != nil { // presenting
+        if let v2 = v2 { // presenting
             con.addSubview(v2)
             let scale = CGAffineTransformMakeScale(1.6,1.6)
             v2.transform = scale
@@ -125,7 +125,7 @@ extension CAVTransitioner : UIViewControllerAnimatedTransitioning {
                     _ in
                     transitionContext.completeTransition(true)
                 })
-        } else {
+        } else if let v1 = v1 {
             UIView.animateWithDuration(0.25, animations: {
                 v1.alpha = 0
                 }, completion: {
