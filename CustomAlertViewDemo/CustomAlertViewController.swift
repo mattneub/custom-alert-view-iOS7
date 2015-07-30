@@ -11,11 +11,11 @@ class CustomAlertViewController : UIViewController {
         self.transitioningDelegate = self.transitioner
     }
     
-    convenience override init() {
+    convenience init() {
         self.init(nibName:"CustomAlertViewController", bundle:nil)
     }
     
-    required init(coder: NSCoder) {
+    required init?(coder: NSCoder) {
         fatalError("NSCoding not supported")
     }
     

@@ -7,40 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3232610B1B6AD23E0008EC29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3232610A1B6AD23E0008EC29 /* LaunchScreen.storyboard */; };
+		3232610D1B6AD25F0008EC29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3232610C1B6AD25F0008EC29 /* AppDelegate.swift */; };
+		3232610F1B6AD2970008EC29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3232610E1B6AD2970008EC29 /* ViewController.swift */; };
 		3276A7D0197A040B00568EFF /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276A7CF197A040B00568EFF /* CustomAlertViewController.swift */; };
 		3276A7D2197A066200568EFF /* CustomAlertViewTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276A7D1197A066200568EFF /* CustomAlertViewTransitioner.swift */; };
-		32CCF121187DCEA4009ED52A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CCF120187DCEA4009ED52A /* Foundation.framework */; };
-		32CCF123187DCEA4009ED52A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CCF122187DCEA4009ED52A /* CoreGraphics.framework */; };
-		32CCF125187DCEA4009ED52A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CCF124187DCEA4009ED52A /* UIKit.framework */; };
-		32CCF12B187DCEA4009ED52A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF129187DCEA4009ED52A /* InfoPlist.strings */; };
-		32CCF12D187DCEA4009ED52A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CCF12C187DCEA4009ED52A /* main.m */; };
-		32CCF131187DCEA4009ED52A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CCF130187DCEA4009ED52A /* AppDelegate.m */; };
 		32CCF134187DCEA4009ED52A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF132187DCEA4009ED52A /* Main.storyboard */; };
-		32CCF137187DCEA4009ED52A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CCF136187DCEA4009ED52A /* ViewController.m */; };
-		32CCF139187DCEA4009ED52A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF138187DCEA4009ED52A /* Images.xcassets */; };
+		32CCF139187DCEA4009ED52A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF138187DCEA4009ED52A /* Assets.xcassets */; };
 		32CCF156187DCF0E009ED52A /* smileybignew.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF155187DCF0E009ED52A /* smileybignew.png */; };
 		32CCF15B187DCFA6009ED52A /* CustomAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CCF159187DCFA6009ED52A /* CustomAlertViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3276A7CE197A040B00568EFF /* CustomAlertViewDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomAlertViewDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3232610A1B6AD23E0008EC29 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3232610C1B6AD25F0008EC29 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3232610E1B6AD2970008EC29 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3276A7CF197A040B00568EFF /* CustomAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
 		3276A7D1197A066200568EFF /* CustomAlertViewTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewTransitioner.swift; sourceTree = "<group>"; };
 		32CCF11D187DCEA4009ED52A /* CustomAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		32CCF120187DCEA4009ED52A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		32CCF122187DCEA4009ED52A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		32CCF124187DCEA4009ED52A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		32CCF128187DCEA4009ED52A /* CustomAlertViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomAlertViewDemo-Info.plist"; sourceTree = "<group>"; };
-		32CCF12A187DCEA4009ED52A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		32CCF12C187DCEA4009ED52A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CCF12E187DCEA4009ED52A /* CustomAlertViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomAlertViewDemo-Prefix.pch"; sourceTree = "<group>"; };
-		32CCF12F187DCEA4009ED52A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		32CCF130187DCEA4009ED52A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		32CCF133187DCEA4009ED52A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		32CCF135187DCEA4009ED52A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		32CCF136187DCEA4009ED52A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		32CCF138187DCEA4009ED52A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		32CCF13F187DCEA4009ED52A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		32CCF138187DCEA4009ED52A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32CCF155187DCF0E009ED52A /* smileybignew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smileybignew.png; sourceTree = "<group>"; };
 		32CCF159187DCFA6009ED52A /* CustomAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,9 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32CCF123187DCEA4009ED52A /* CoreGraphics.framework in Frameworks */,
-				32CCF125187DCEA4009ED52A /* UIKit.framework in Frameworks */,
-				32CCF121187DCEA4009ED52A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				32CCF126187DCEA4009ED52A /* CustomAlertViewDemo */,
-				32CCF11F187DCEA4009ED52A /* Frameworks */,
 				32CCF11E187DCEA4009ED52A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,45 +59,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32CCF11F187DCEA4009ED52A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				32CCF120187DCEA4009ED52A /* Foundation.framework */,
-				32CCF122187DCEA4009ED52A /* CoreGraphics.framework */,
-				32CCF124187DCEA4009ED52A /* UIKit.framework */,
-				32CCF13F187DCEA4009ED52A /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		32CCF126187DCEA4009ED52A /* CustomAlertViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				32CCF12F187DCEA4009ED52A /* AppDelegate.h */,
-				32CCF130187DCEA4009ED52A /* AppDelegate.m */,
 				32CCF132187DCEA4009ED52A /* Main.storyboard */,
-				32CCF135187DCEA4009ED52A /* ViewController.h */,
-				32CCF136187DCEA4009ED52A /* ViewController.m */,
+				3232610C1B6AD25F0008EC29 /* AppDelegate.swift */,
+				3232610E1B6AD2970008EC29 /* ViewController.swift */,
 				3276A7CF197A040B00568EFF /* CustomAlertViewController.swift */,
 				32CCF159187DCFA6009ED52A /* CustomAlertViewController.xib */,
 				3276A7D1197A066200568EFF /* CustomAlertViewTransitioner.swift */,
 				32CCF155187DCF0E009ED52A /* smileybignew.png */,
-				32CCF138187DCEA4009ED52A /* Images.xcassets */,
-				32CCF127187DCEA4009ED52A /* Supporting Files */,
-				3276A7CE197A040B00568EFF /* CustomAlertViewDemo-Bridging-Header.h */,
+				32CCF138187DCEA4009ED52A /* Assets.xcassets */,
+				3232610A1B6AD23E0008EC29 /* LaunchScreen.storyboard */,
+				32CCF128187DCEA4009ED52A /* CustomAlertViewDemo-Info.plist */,
 			);
 			path = CustomAlertViewDemo;
-			sourceTree = "<group>";
-		};
-		32CCF127187DCEA4009ED52A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				32CCF128187DCEA4009ED52A /* CustomAlertViewDemo-Info.plist */,
-				32CCF129187DCEA4009ED52A /* InfoPlist.strings */,
-				32CCF12C187DCEA4009ED52A /* main.m */,
-				32CCF12E187DCEA4009ED52A /* CustomAlertViewDemo-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +102,7 @@
 		32CCF115187DCEA4009ED52A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Matt Neuburg";
 			};
@@ -170,9 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				32CCF15B187DCFA6009ED52A /* CustomAlertViewController.xib in Resources */,
-				32CCF139187DCEA4009ED52A /* Images.xcassets in Resources */,
-				32CCF12B187DCEA4009ED52A /* InfoPlist.strings in Resources */,
+				32CCF139187DCEA4009ED52A /* Assets.xcassets in Resources */,
 				32CCF156187DCF0E009ED52A /* smileybignew.png in Resources */,
+				3232610B1B6AD23E0008EC29 /* LaunchScreen.storyboard in Resources */,
 				32CCF134187DCEA4009ED52A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,25 +144,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3232610D1B6AD25F0008EC29 /* AppDelegate.swift in Sources */,
 				3276A7D0197A040B00568EFF /* CustomAlertViewController.swift in Sources */,
-				32CCF137187DCEA4009ED52A /* ViewController.m in Sources */,
+				3232610F1B6AD2970008EC29 /* ViewController.swift in Sources */,
 				3276A7D2197A066200568EFF /* CustomAlertViewTransitioner.swift in Sources */,
-				32CCF131187DCEA4009ED52A /* AppDelegate.m in Sources */,
-				32CCF12D187DCEA4009ED52A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		32CCF129187DCEA4009ED52A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32CCF12A187DCEA4009ED52A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		32CCF132187DCEA4009ED52A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -247,7 +198,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -280,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -290,14 +241,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomAlertViewDemo/CustomAlertViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "CustomAlertViewDemo/CustomAlertViewDemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "CustomAlertViewDemo/CustomAlertViewDemo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
@@ -307,14 +257,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomAlertViewDemo/CustomAlertViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "CustomAlertViewDemo/CustomAlertViewDemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "CustomAlertViewDemo/CustomAlertViewDemo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
