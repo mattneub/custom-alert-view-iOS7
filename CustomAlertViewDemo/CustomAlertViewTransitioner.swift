@@ -69,7 +69,7 @@ class MyPresentationController : UIPresentationController {
         let v = self.presentedView()!
         let con = self.containerView!
         v.center = CGPointMake(con.bounds.midX, con.bounds.midY)
-        return v.frame.integerRect
+        return v.frame.integral
     }
     
     override func containerViewWillLayoutSubviews() {
