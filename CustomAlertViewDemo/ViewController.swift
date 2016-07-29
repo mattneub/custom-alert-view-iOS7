@@ -1,9 +1,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBAction func doButton (sender:AnyObject!) {
+    
+    @IBAction func doButton (_ sender:AnyObject!) {
         let vc = CustomAlertViewController()
-        self.presentViewController(vc, animated: true, completion: nil)
+        self.present(vc, animated: true)
     }
 
 

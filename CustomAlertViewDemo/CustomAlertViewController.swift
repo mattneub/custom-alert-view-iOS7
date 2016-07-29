@@ -4,10 +4,10 @@ import UIKit
 class CustomAlertViewController : UIViewController {
     var transitioner : CAVTransitioner
     
-    override init(nibName nibNameOrNil: String!, bundle nibBundleOrNil: NSBundle!) {
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         self.transitioner = CAVTransitioner()
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        self.modalPresentationStyle = .Custom
+        self.modalPresentationStyle = .custom
         self.transitioningDelegate = self.transitioner
     }
     
@@ -19,7 +19,7 @@ class CustomAlertViewController : UIViewController {
         fatalError("NSCoding not supported")
     }
     
-    @IBAction func doDismiss(sender:AnyObject?) {
-        self.presentingViewController!.dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func doDismiss(_ sender:AnyObject?) {
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
 }
