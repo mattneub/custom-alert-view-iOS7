@@ -7,7 +7,7 @@ Originally created in association with this tutorial article: <http://radar.orei
 
 Now updated for iOS 8 and later. The iOS 8 architecture for customizing presented view controllers is very greatly changed from iOS 7, and the project has been reorganized accordingly. It is therefore now iOS 8 and later _only_. For the earlier iOS 7 version, checkout commit 7410850.
 
-Now updated (in a branch) to Swift 3 (Xcode 8 Seed 3).
+Now updated (in a branch) to Swift 3 (Xcode 8 Seed 6).
 
 ![screenshot](http://www.apeth.com/customAlert.png)
 
