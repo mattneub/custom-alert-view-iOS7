@@ -12,7 +12,7 @@ class CustomAlertViewController : UIViewController {
     }
     
     convenience init() {
-        self.init(nibName:"CustomAlertViewController", bundle:nil)
+        self.init(nibName:nil, bundle:nil)
     }
     
     required init?(coder: NSCoder) {
