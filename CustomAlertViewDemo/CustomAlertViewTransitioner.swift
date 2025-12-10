@@ -16,11 +16,8 @@ class CAVTransitioner : NSObject, UIViewControllerTransitioningDelegate {
 class MyPresentationController : UIPresentationController {
     
     func decorateView(_ v:UIView) {
-        // iOS 8 doesn't have this
-//        v.layer.borderColor = UIColor.blue.cgColor
-//        v.layer.borderWidth = 2
-        v.layer.cornerRadius = 8
-        
+        v.cornerConfiguration = .corners(radius: 8)
+
         let m1 = UIInterpolatingMotionEffect(
             keyPath:"center.x", type:.tiltAlongHorizontalAxis)
         m1.maximumRelativeValue = 10.0
